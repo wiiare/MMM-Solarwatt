@@ -1,0 +1,67 @@
+.solarwatt-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px; /* schmaler */
+  margin-top: 20px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* Alle drei Boxen (Solar, Batterie, Tageswerte) */
+.solar-box, 
+.battery-box, 
+.daily-box {
+  flex: 1;
+  max-width: 260px;   /* vorher 360px */
+  min-width: 180px;   /* vorher 260px */
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+/* Titel */
+.solar-title, 
+.battery-title, 
+.daily-title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* Datenzeilen */
+.data-row {
+  font-size: 1.1rem;
+  margin: 6px 0;
+}
+
+/* Batterieicon */
+.battery-icon {
+  width: 100%;
+  height: 26px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.battery-icon::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 6px;
+  width: 8px;
+  height: 12px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.battery-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4caf50, #8df58d);
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}

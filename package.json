@@ -1,0 +1,12 @@
+{
+  "name": "MMM-Solarwatt",
+  "version": "1.0.0",
+  "description": "MagicMirror² module to display Solarwatt live and daily data including battery status.",
+  "main": "MMM-Solarwatt.js",
+  "scripts": {},
+  "author": "Dein Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
