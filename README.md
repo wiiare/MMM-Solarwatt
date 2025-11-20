@@ -7,7 +7,7 @@ Batteriestatus und kumulierte Tageswerte anzeigt.
 
 ## 📷 Screenshot (Platzhalter)
 
-![Solarwatt Modul](./screenshots/Bild.png)\
+![Solarwatt Modul](./screenshots/solarblock.jpg)\
 *Screenshot der Solarwatt-Anzeige: Solar, Batterie und Tageswerte*
 
 ------------------------------------------------------------------------
