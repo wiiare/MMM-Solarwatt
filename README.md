@@ -7,7 +7,7 @@ Batteriestatus und kumulierte Tageswerte anzeigt.
 
 ## 📷 Screenshot (Platzhalter)
 
-![Solarwatt Modul](./screenshots/solarwatt_placeholder.png)\
+![Solarwatt Modul](./screenshots/Bild.png)\
 *Screenshot der Solarwatt-Anzeige: Solar, Batterie und Tageswerte*
 
 ------------------------------------------------------------------------
@@ -34,7 +34,7 @@ cd ~/MagicMirror/modules
 Repository klonen:
 
 ``` bash
-git clone https://github.com/DEIN-BENUTZERNAME/MMM-Solarwatt.git
+git clone https://github.com/wiiare/MMM-Solarwatt.git
 ```
 
 Abhängigkeiten installieren:
@@ -61,9 +61,9 @@ Füge das Modul in `config/config.js` ein:
   module: "MMM-Solarwatt",
   position: "top_right",
   config: {
-    ip: "192.168.178.142",
+    ip: "Deine_IP",
     password: "",
-    batteryIp: "batteryflex-0c432c.local",
+    batteryIp: "Deine_IP",
     updateInterval: 30000
   }
 }
@@ -111,7 +111,7 @@ Kumulierte kWh für: - Produktion - Verbrauch - Einspeisung - Netzbezug
 
 ## 📝 Lizenz
 
-MIT License © 2025 Dein Name
+MIT License © 2025 wiiare
 
 ------------------------------------------------------------------------
 
@@ -125,7 +125,7 @@ Installation einer bestimmten Version:
 
 ``` bash
 cd ~/MagicMirror/modules
-git clone --branch v1.0.0 https://github.com/DEIN-BENUTZERNAME/MMM-Solarwatt.git
+git clone --branch v1.0.0 https://github.com/wiiare/MMM-Solarwatt.git
 ```
 
 ------------------------------------------------------------------------
@@ -144,6 +144,5 @@ MMM-Solarwatt/
 ├── LICENSE
 └── screenshots/
     ├── solar_block.png
-    ├── battery_block.png
-    └── daily_block.png
+   
 ```
