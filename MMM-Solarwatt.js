@@ -1,8 +1,8 @@
 Module.register("MMM-Solarwatt", {
   defaults: {
-    ip: "192.168.178.142",
+    ip: "IP_Solatwatt_Manager",
     password: "",
-    batteryIp: "batteryflex-0c432c.local",
+    batteryIp: "IP_Battery_Flex",
     updateInterval: 15 * 1000
   },
 
@@ -118,3 +118,4 @@ Module.register("MMM-Solarwatt", {
     return wrapper;
   }
 });
+
