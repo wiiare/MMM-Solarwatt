@@ -140,9 +140,7 @@ MMM-Solarwatt/
 ├── dailyData.json
 ├── package.json
 ├── README.md
-├── RELEASE_TEMPLATE.md
-├── LICENSE
 └── screenshots/
-    ├── solar_block.png
+    ├── solarblock.jpg
    
 ```
